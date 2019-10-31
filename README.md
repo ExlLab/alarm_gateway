@@ -9,15 +9,10 @@ Alarm gateway for Home Assistant: Make call and send sms to the phone number
 .homeassistant/
 ```
 |-- custom_components/
-
 |   |-- alarm_gateway/
-
 |       |-- __init__.py
-
 |       |-- alarm_gateway.so
-
 |       |-- manifest.json
-
 |       |-- services.yaml
 ```
 1.3- Add the following to your configuration.yaml file.
@@ -102,3 +97,5 @@ alarm_call_repeat:
         message: >
           {{ states.input_text.alarm_message.state }}
 ```          
+3. Setting UI on Lovelace entities card:
+See picture lovelace_stetup.png
