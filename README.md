@@ -25,7 +25,8 @@ Check config anh restart Home Assistant.
 2- Add entities for component ```alarm_gateway```
 
 ```
-#include in the configuration.yaml
+#include in the configuration.yaml file:
+
 automation: !include automations.yaml
 input_number: !include input_number.yaml
 input_boolean: !include input_boolean.yaml
