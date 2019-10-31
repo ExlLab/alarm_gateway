@@ -100,6 +100,6 @@ alarm_call_repeat:
           {{ states.input_text.alarm_message.state }}
 ```          
 3. Setting UI on Lovelace entities card:
-See the picture below.
+Follow the below picture.
 
 ![](https://github.com/ExlLab/alarm_gateway/blob/master/lovelace_stetup.png)
