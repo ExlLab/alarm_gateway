@@ -1,6 +1,8 @@
 # alarm_gateway
 Alarm gateway for Home Assistant: Make call and send sms to the phone number
 
+![](https://github.com/ExlLab/alarm_gateway/blob/master/lovelace_stetup.png)
+
 1- Setup
 
 1.1- Create a directory custom_components in your Home Assistant configuration directory.
