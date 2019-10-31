@@ -7,6 +7,7 @@ Alarm gateway for Home Assistant: Make call and send sms to the phone number
 
 1.2- Copy ```alarm_gateway``` from this project including all files into the directory ```custom_components```.
 .homeassistant/
+
 |-- custom_components/
 |   |-- alarm_gateway/
 |       |-- __init__.py
@@ -96,9 +97,3 @@ alarm_call_repeat:
         message: >
           {{ states.input_text.alarm_message.state }}
 ```          
-
-  
-  
-
-
-
