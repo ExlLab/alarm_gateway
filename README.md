@@ -19,7 +19,7 @@ Alarm gateway for Home Assistant: Make call and send sms to the phone number
 
 Check config anh restart Home Assistant.
 
-2. Add enities for component ```alarm_gateway```
+2. Add entities for component ```alarm_gateway```
 
 ```
 # input_text.yaml
@@ -64,7 +64,7 @@ alarm_call_repeat:
   trigger:
     platform: state
     entity_id: 
-      - input_boolean.alarm_sensor
+      - sensor.alarm_sensor 
     to: 'on'
   condition:
     - condition: state
@@ -82,7 +82,7 @@ alarm_call_repeat:
   trigger:
     platform: state
     entity_id: 
-      - input_boolean.alarm_sensor
+      - sensor.alarm_sensor
     to: 'on'
   condition:
     - condition: state
