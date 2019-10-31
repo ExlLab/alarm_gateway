@@ -1,8 +1,8 @@
 # alarm_gateway
 Alarm gateway for Home Assistant: Make call and send sms.
 
+Video YouTube:
 [![Watch the video](https://github.com/ExlLab/alarm_gateway/blob/master/youtube%20-%20alarm%20gateway.png)](https://youtu.be/gEnWaoiTi7Q)
-
 
 
 ![](https://github.com/ExlLab/alarm_gateway/blob/master/alarm_gateway.png)
