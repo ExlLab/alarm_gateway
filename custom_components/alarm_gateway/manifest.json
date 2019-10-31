@@ -1,0 +1,8 @@
+{
+"domain": "alarm_gateway",
+"name": "Alarm Gateway",
+"documentation": "https://www.example.com",
+"dependencies": [],
+"codeowners": ["exlab247@gmail.com"],
+"requirements": []
+}
