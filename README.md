@@ -22,7 +22,7 @@ Alarm gateway for Home Assistant: Make call and send sms to the phone number
 
 Check config anh restart Home Assistant.
 
-2. Add entities for component ```alarm_gateway```
+2- Add entities for component ```alarm_gateway```
 
 ```
 #include in the configuration.yaml
@@ -107,7 +107,7 @@ alarm_call_repeat:
         message: >
           {{ states.input_text.alarm_message.state }}
 ```          
-3. Setting UI on Lovelace entities card:
+3- Setting UI on Lovelace entities card:
 Follow the below picture.
 
 ![](https://github.com/ExlLab/alarm_gateway/blob/master/lovelace_stetup.png)
