@@ -1,9 +1,10 @@
 # alarm_gateway
 Alarm gateway for Home Assistant: Make call and send sms to the phone number
 
-1. Setup 
-1.1. Create a directory custom_components in your Home Assistant configuration directory.
-1.2. Copy ```alarm_gateway``` from this project including all files into the directory custom_components.
+1- Setup 
+1.1- Create a directory custom_components in your Home Assistant configuration directory.
+
+1.2- Copy ```alarm_gateway``` from this project including all files into the directory custom_components.
 .homeassistant/
 |-- custom_components/
 |   |-- alarm_gateway/
