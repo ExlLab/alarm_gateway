@@ -25,6 +25,14 @@ Check config anh restart Home Assistant.
 2. Add entities for component ```alarm_gateway```
 
 ```
+#include in the configuration.yaml
+automation: !include automations.yaml
+input_number: !include input_number.yaml
+input_boolean: !include input_boolean.yaml
+input_text: !include input_text.yaml
+```
+
+```
 # input_text.yaml
 alarm_phones_call:
   name: 'Số điện thoại gọi'
