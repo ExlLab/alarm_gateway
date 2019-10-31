@@ -1,6 +1,5 @@
 # alarm_gateway
-Alarm gateway for Home Assistant: Make call and send sms to the phone number
-
+Alarm gateway for Home Assistant: Make call and send sms to the phone.
 ![](https://github.com/ExlLab/alarm_gateway/blob/master/alarm_gateway.png)
 
 1- Setup
