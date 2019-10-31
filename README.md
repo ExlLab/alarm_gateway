@@ -12,7 +12,7 @@ source /srv/homeassistant/bin/activate
 python3 -m pip install pyserial
 ```
 
-1.1- Create a directory custom_components in your Home Assistant configuration directory.
+1.1- Create a directory ```custom_components``` in your Home Assistant configuration directory.
 
 1.2- Copy ```alarm_gateway``` from this project including all files into the directory ```custom_components```.
 ```
